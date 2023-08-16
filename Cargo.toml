@@ -1,0 +1,10 @@
+[package]
+name = "tagdb"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+query = { git = "https://github.com/h-sumiya/query-parser" }
+simple16 = { git = "https://github.com/h-sumiya/simple16" }
